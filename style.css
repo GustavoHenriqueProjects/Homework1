@@ -1,0 +1,110 @@
+*{
+    padding: 10;
+    margin: 10;
+    box-sizing: border-box;
+}
+
+header{
+
+    height: 133px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.logo{
+    height: 100px;
+
+}
+
+main{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 2px;
+
+}
+
+section{
+    width: 800px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.titulo{
+    
+    font-size: 50px;
+    width: 800px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.subtitulo{
+    color: black;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom:10px;
+}
+.subtitulo-destaque{
+    align-items: center; 
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+.info{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.sequencia-marvel{
+
+    font-size: 20px;
+    background-color: rgb(27, 26, 26);
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+       
+.preparo-texto{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:30px;
+}
+.video{
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.rodape{
+    text-align: center;
+}
+
+footer{
+   
+    height: 100px;
+    font-weight: 800px;
+    color: white;
+    background-color: black;
+}
+body{
+   
+    background-image: url("heroivs.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
